@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"> <!-- Conectar o arquivo CSS ao index-->
+    <!--Adicionar ícone ao site-->
+    <title>Tela de cadastro</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- NAVBAR-->
+    <nav>
+        <button type="submit" class="buttonNav"></button>
+        <button type="submit" class="buttonNav2"></button>
+        <button type="submit" class="buttonNav3"></button>
+        <input type="image" src="img/user.png" class="buttonNav4" title="user" alt=""/>
+        <input type="image" src="img/botao.png" class="buttonNav5" alt=""/>
+    </nav>
+
+    <!-- Formulário -->
+    <form id="formulario" action="/pagina-processa-dados-do-form" method="post">
+        <img src="img/img.png" alt="Bootstrap" width="85" height="60"> <!-- Imagem dentro da navbar-->
+        <center>
+        </center>
+        <br>
+
+        <!-- Inputs: -->
+        <label>Matrícula:</label>
+        <input class="campo_matricula" type="text"><br>
+        <label>Nome:</label>
+        <input class="campo_nome" type="text"><br>
+        <label>CPF:</label>
+        <input class="campo_cpf" type="text"><br>
+        <label>RG:</label>
+        <input class="campo_rg" type="text"><br>
+        <label>Email:</label>
+        <input class="campo_email" type="text"><br>
+        <label>Telefone:</label>
+        <input class="campo_telefone" type="text"><br>
+
+        <!-- Dropdown MENU -->
+        <label>Tipo:</label>
+        <select class="form_tipo" required>
+            <option value="">Selecione...</option>
+            <option value="su">SU</option>
+            <option value="usuario">Usuário</option>
+            <option value="operador">Operador</option>
+            <option value="gestor">Gestor</option>
+        </select>
+        <br><br>
+
+        <!-- Botão cadastro-->
+        <button type="submit" class="buttonClass">Cadastrar</button>
+    </form>
+</body>
+
+</html>
