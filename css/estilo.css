@@ -75,6 +75,7 @@ nav {
     border-width: 1px;
     border-radius: 1.5em;
     position: absolute;
+    cursor: pointer;
 }
 
 .buttonNav2 {
@@ -86,6 +87,7 @@ nav {
     border-width: 1px;
     border-radius: 1.5em;
     position: absolute;
+    cursor: pointer;
 }
 
 .buttonNav3 {
@@ -97,6 +99,7 @@ nav {
     border-width: 1px;
     border-radius: 1.5em;
     position: absolute;
+    cursor: pointer;
 }
 
 .buttonNav4 {
@@ -104,12 +107,14 @@ nav {
     margin-left: 95%;
     position: absolute;
     width: 25px;
+    cursor: pointer;
 }
 
 .buttonNav5 {
     margin-top: 0.8%;
     margin-left: 2%;
     width: 22px;
+    cursor: pointer;
 }
 
 /* MUDA A COR DO PLACEHOLDER */
