@@ -112,12 +112,23 @@ nav {
     width: 22px;
 }
 
+/* MUDA A COR DO PLACEHOLDER */
+input::placeholder {
+    padding: 12px;
+    color: #fff;
+    font-size: 11px;
+}
+
+.teste {
+    background-image: url(img/botao.png);
+}
+
 #formulario input {
     font-size: 12px;
     background-color: #003158;
     border-color: white;
     border-radius: 1.5em;
-    width: 69%;
+    width: 70%;
     height: 27px;
 }
 
@@ -156,8 +167,8 @@ nav {
     font-size: 12px;
     border-radius: 0.5em;
     margin-left: 10.5%;
-    width: 69%;
-    height: 35px;
+    width: 70%;
+    height: 33px;
     margin-top: 1%;
     border-radius: 2.5em;
 }
