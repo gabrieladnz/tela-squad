@@ -11,17 +11,38 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <!-- NAVBAR-->
     <nav>
         <!-- Botões da navbar -->
         <button type="submit" class="buttonNav"></button>
         <button type="submit" class="buttonNav2"></button>
         <button type="submit" class="buttonNav3"></button>
-        <input type="image" src="img/user.png" class="buttonNav4" title="user" alt=""/>
-        <input type="image" src="img/botao.png" class="buttonNav5" alt=""/>    
+        <input type="image" src="img/user.png" class="buttonNav4" title="user" alt="" />
+        <!-- 
+        <input type="image" src="img/botao.png" class="buttonNav5" alt="" />
+        -->
+
+        <!-- Offcanvas -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end menu" id="navbarNavAltMarkup">
+            <ul>
+                <li><a class="nav-item nav-link active text-white" aria-current="page" href="">Home</a> </li>
+                <li><a class="nav-item nav-link text-white" href="">Meus chamados</a> </li>
+                <li><a class="nav-item nav-link text-white" href="">Encerrar sessão</a> </li>
+            </ul>
+        </div>
     </nav>
 
     <!-- Formulário -->
